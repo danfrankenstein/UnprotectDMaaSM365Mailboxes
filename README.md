@@ -38,7 +38,7 @@ Place both files in a folder together and run the main script like so:
 
 DMaaS uses an API key for authentication. To acquire an API key:
 
-*log onto DMaaS
+-log onto DMaaS
 *click Settings -> access management -> API Keys
 *click Add API Key
 *enter a name for your key
