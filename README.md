@@ -16,19 +16,20 @@ $repoURL = 'https://raw.githubusercontent.com/danfrankenstein/UnprotectDMaaSM365
 ~~~
 
 # Components
-protectDmaasM365Mailboxes.ps1: the main powershell script
-cohesity-api.ps1: the Cohesity REST API helper module
+*protectDmaasM365Mailboxes.ps1: the main powershell script
+*cohesity-api.ps1: the Cohesity REST API helper module
 Place both files in a folder together and run the main script like so:
-
+~~~
 ./unprotectDmaasM365Mailboxes.ps1 -region us-east-2 `
                                 -sourceName mydomain.onmicrosoft.com `
                                 -mailboxes user1.mydomain.onmicrosoft.com, user2.mydomain.onmicrosoft.com `
                                 -mailboxList ./mailboxlist.txt
+~~~
 Parameters
 -username: (optional) used for password storage only (default is 'DMaaS')
 -region: DMaaS region to use
 -sourceName: name of registered M365 protection source
--mailboxes: (optional) one or more mailbox names or SMTP addresses (comma separated)
+-mailboxes: (optional) one or more mailbox "display names" or SMTP addresses (comma separated)
 -mailboxList: (optional) text file of mailbox names or SMTP addresses (one per line)
 -pageSize: (optional) limit number of objects returned pr page (default is 50000)
 Authenticating to DMaaS
