@@ -34,7 +34,7 @@ Place both files in a folder together and run the main script like so:
 - -mailboxList: (optional) text file of mailbox names or SMTP addresses (one per line)
 - -pageSize: (optional) limit number of objects returned pr page (default is 50000)
 
-#Authenticating to DMaaS
+# Authenticating to DMaaS
 
 DMaaS uses an API key for authentication. To acquire an API key:
 
