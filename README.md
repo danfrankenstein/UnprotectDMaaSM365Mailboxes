@@ -25,7 +25,7 @@ Place both files in a folder together and run the main script like so:
                                 -mailboxes user1.mydomain.onmicrosoft.com, user2.mydomain.onmicrosoft.com `
                                 -mailboxList ./mailboxlist.txt
 ~~~
-Parameters
+# Parameters
 -username: (optional) used for password storage only (default is 'DMaaS')
 -region: DMaaS region to use
 -sourceName: name of registered M365 protection source
