@@ -38,11 +38,11 @@ Place both files in a folder together and run the main script like so:
 
 DMaaS uses an API key for authentication. To acquire an API key:
 
--log onto DMaaS
--click Settings -> access management -> API Keys
--click Add API Key
--enter a name for your key
--click Save
+- log onto DMaaS
+- click Settings -> access management -> API Keys
+- click Add API Key
+- enter a name for your key
+- click Save
 
 Immediately copy the API key (you only have one chance to copy the key. Once you leave the screen, you can not access it again). When running a DMaaS compatible script for the first time, you will be prompted for a password. Enter the API key as the password.# UnprotectM365Mailboxes
  
