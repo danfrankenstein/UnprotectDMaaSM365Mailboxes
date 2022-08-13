@@ -1,10 +1,10 @@
 # process commandline arguments
 [CmdletBinding()]
 param (
-    [Parameter()][string]$username = 'helios-pmdemo@cohesity.com',
+    [Parameter()][string]$username = 'DMaaS', # Your DMaaS username (username@emaildomain.com)
     [Parameter(Mandatory = $True)][string]$region,  # DMaaS region
     [Parameter(Mandatory = $True)][string]$sourceName,  # name of registered O365 source
-    [Parameter()][array]$mailboxes = 'Adele Vance',  # optional names of mailboxes protect use @() for array of mailboxes
+    [Parameter()][array]$mailboxes = '',  # optional names of mailboxes protect use @() for array of mailboxes
     [Parameter()][string]$mailboxList = '', # optional textfile of mailboxes to protect 'Mailbox_list.txt', 
     [Parameter(Mandatory = $False)][bool]$deleteAllSnapshots = $False,  # whether all Snapshots are deleted (default to $False)
     [Parameter()][int]$pageSize = 50000
