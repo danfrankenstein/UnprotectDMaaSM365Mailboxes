@@ -26,19 +26,19 @@ Place both files in a folder together and run the main script like so:
                                 -mailboxList ./mailboxlist.txt
 ~~~
 # Parameters
--username: (optional) used for password storage only (default is 'DMaaS')
--region: DMaaS region to use
--sourceName: name of registered M365 protection source
--mailboxes: (optional) one or more mailbox "display names" or SMTP addresses (comma separated)
--mailboxList: (optional) text file of mailbox names or SMTP addresses (one per line)
--pageSize: (optional) limit number of objects returned pr page (default is 50000)
-Authenticating to DMaaS
+*-username: (optional) used for password storage only (default is 'DMaaS')
+*-region: DMaaS region to use
+*-sourceName: name of registered M365 protection source
+*-mailboxes: (optional) one or more mailbox "display names" or SMTP addresses (comma separated)
+*-mailboxList: (optional) text file of mailbox names or SMTP addresses (one per line)
+*-pageSize: (optional) limit number of objects returned pr page (default is 50000)
+#Authenticating to DMaaS
 DMaaS uses an API key for authentication. To acquire an API key:
 
-log onto DMaaS
-click Settings -> access management -> API Keys
-click Add API Key
-enter a name for your key
-click Save
+*log onto DMaaS
+*click Settings -> access management -> API Keys
+*click Add API Key
+*enter a name for your key
+*click Save
 Immediately copy the API key (you only have one chance to copy the key. Once you leave the screen, you can not access it again). When running a DMaaS compatible script for the first time, you will be prompted for a password. Enter the API key as the password.# UnprotectM365Mailboxes
  
